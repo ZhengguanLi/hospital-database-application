@@ -1,0 +1,22 @@
+drop type date_admitted_obj force;
+drop type date_discharged_obj force;
+drop type stay_period_obj force;
+drop type e_address_obj force;
+drop type contact_no_list force;
+drop type patient_obj force;
+drop type cares_obj force;
+drop type doctor_obj force;
+drop type nurse_obj force;
+drop type employee_obj force;
+drop type medicine_obj force;
+drop type room_obj force;
+drop type is_given_obj force;
+
+drop table doctor_tab cascade CONSTRAINTS;
+drop table employee_tab cascade CONSTRAINTS;
+drop table medicine_tab cascade CONSTRAINTS;
+drop table patient_tab cascade CONSTRAINTS;
+drop table nurse_tab cascade CONSTRAINTS;
+drop table room_tab cascade CONSTRAINTS;
+drop table is_given_tab cascade CONSTRAINTS;
+drop table cares_tab cascade CONSTRAINTS;
